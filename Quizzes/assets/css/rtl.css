@@ -1,0 +1,44 @@
+@font-face {
+    font-family: DroidNaskh;
+    src: url(../fonts/DroidArabicNaskh/DroidNaskh-Regular.ttf);
+}
+
+@font-face {
+    font-family: NotoKufiArabic;
+    src: url(../fonts/NotoKufiArabic-hinted/NotoKufiArabic-Regular.ttf);
+}
+
+html{
+	direction: rtl;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, 
+.title,.navbar-brand,.navbar-nav > li,
+.breadcrumb,.list-group,
+.nav-pills > li, .nav-tabs > li,
+input, button, select, textarea,
+th,#footer,.dataTables_info,.dataTables_length,.dataTables_filter,.paginate_button
+{
+    font-family: NotoKufiArabic,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body,html {
+font-family: DroidNaskh,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {overflow-x: hidden;}
+
+.dataTables_length > label > select
+{
+    text-align: right;
+    direction: rtl;
+    padding-right: 15px;
+}
+
+.datepicker-dropdown{
+    left:auto !important;
+}
+
+.datepicker{
+    direction: rtl !important;
+}
